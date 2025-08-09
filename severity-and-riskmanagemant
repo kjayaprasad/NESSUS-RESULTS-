@@ -1,0 +1,15 @@
+Factor	Assessment
+Severity	Low to Medium
+CVSS (Estimated)	~3.7 (Information Disclosure)
+Exploitability	Low
+Impact	Indirect (aids targeted attacks)
+Fix Complexity	Easy
+🔍 Contextual Risk:
+
+    Alone: Minor information leak.
+
+    With other vulnerabilities: May enable targeted exploitation.
+
+    Especially risky if PHP is outdated or unpatched.
+
+

@@ -1,0 +1,20 @@
+Disable expose_php in your PHP configuration to prevent this information from being sent in headers.
+Steps:
+
+    Open the php.ini file:
+
+sudo nano /etc/php/8.x/apache2/php.ini
+
+Locate and update the following line:
+
+expose_php = On
+
+Change it to:
+
+expose_php = Off
+
+Restart the web server:
+
+    sudo systemctl restart apache2
+
+📌 Note: The path may vary based on your PHP version and web server (Apache/Nginx).
